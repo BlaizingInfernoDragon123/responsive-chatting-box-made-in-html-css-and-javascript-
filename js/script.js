@@ -94,7 +94,7 @@ function autoReply() {
 				Thank you for contacting us and for your support.
 			</span>
                         <span class="chatbox-message-item-text">
-				for further queries you all are always free to contact me  <a href="mailto:blazinginfernodragon123@gmail.com"> here </a> 
+				For further queries you all are always free to contact me  <a href="mailto:blazinginfernodragon123@gmail.com"> here </a> 
 			</span>
 			<span class="chatbox-message-item-time">${addZero(today.getHours())}:${addZero(today.getMinutes())}</span>
 		</div>
