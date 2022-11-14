@@ -4,10 +4,10 @@ Hello everyone this is just a simple demo of a chatting box which is made in htm
 # Live View Of The Webpage Link-
 View the webpage live here at github pages
 
-<a href="https://blaizinginfernodragon123.github.io/animated-login-form-in-html-and-pure-css/">
+<a href="https://blaizinginfernodragon123.github.io/responsive-chatting-box-made-in-html-css-and-javascript-/">
 
 ```
-https://blaizinginfernodragon123.github.io/animated-login-form-in-html-and-pure-css/
+https://blaizinginfernodragon123.github.io/responsive-chatting-box-made-in-html-css-and-javascript-/
 ```
 </a>
 
