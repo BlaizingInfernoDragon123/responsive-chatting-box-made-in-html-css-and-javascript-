@@ -8,6 +8,7 @@
 	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js" integrity="sha512-wT7uPE7tOP6w4o28u1DN775jYjHQApdBnib5Pho4RB0Pgd9y7eSkAV1BTqQydupYDB9GBhTcQQzyNMPMV3cAew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<title>Chatbox</title>
 </head>
 
@@ -86,5 +87,23 @@ img.resize {
 
 	<script src="js/script.js"></script>
         <script src="js/all.js"></script>
+<script>
+function setCookie {
+document.cookie = 'escaped=%u5317'
+document.cookie = 'default=%E5%8C%97'
+var cookies = Cookies.withConverter({
+  read: function (value, name) {
+    if (name === 'escaped') {
+      return unescape(value)
+    }
+    // Fall back to default for all other cookies
+    return Cookies.converter.read(value, name)
+  }
+})
+cookies.get('escaped') // 北
+cookies.get('default') // 北
+cookies.get() // { escaped: '北', default: '北' }
+}
+</script>
 </body>
 </html>
