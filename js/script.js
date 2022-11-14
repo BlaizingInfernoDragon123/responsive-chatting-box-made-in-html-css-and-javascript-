@@ -91,10 +91,10 @@ function autoReply() {
 	let message = `
 		<div class="chatbox-message-item received">
 			<span class="chatbox-message-item-text">
-				Thank you for contacting us and for your support
+				Thank you for contacting us and for your support.
 			</span>
                         <span class="chatbox-message-item-text">
-				For further queries you all are always free to contact me<a href="mailto:blazinginfernodragon123@gmail.com">here</a> 
+				for further queries you all are always free to contact me  <a href="mailto:blazinginfernodragon123@gmail.com"> here </a> 
 			</span>
 			<span class="chatbox-message-item-time">${addZero(today.getHours())}:${addZero(today.getMinutes())}</span>
 		</div>
